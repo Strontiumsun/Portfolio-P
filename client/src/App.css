@@ -1,4 +1,69 @@
-.App {
+#jumbo-fix{
+  margin-bottom: 0px;
+  background-color: #68256c;
+  padding: 0px;
+}
+
+#jumbo-box{
+  background-color: #db0273;
+  width: 100%;
+  color: #68256c;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+body {
+  background-color: #68256c;
+}
+
+.navbar-custom {
+  color: #db0273;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+
+.navbar-custom:hover {
+  color: #fd5757
+}
+
+
+.button-big {
+  text-align: center;
+  color: #db0273;
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  padding-top: 30px;
+  margin-left: 25%;
+  margin-bottom: 30px;
+}
+
+.btn-outline-secondary{
+  border-color: #db0273;
+  border-width: 3px;
+}
+
+.btn-outline-secondary:hover {
+  color:#68256c;
+background-color:#fd5757;
+border-color:#fd5757;
+}
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +95,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
