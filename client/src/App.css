@@ -7,7 +7,7 @@
 #jumbo-box{
   background-color: #db0273;
   width: 100%;
-  color: #68256c;
+  color: #621666;
   font-weight: bold;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #68256c;
+  background-color:#621666;
 }
 
 .navbar-custom {
@@ -54,9 +54,14 @@ background-color:#fd5757;
 border-color:#fd5757;
 }
 
+#card-sizer {
+  width: 500px;
+  margin: 40px;
+}
 
-
-
+#title-sizer {
+  font-size: 20px;
+}
 
 
 
