@@ -7,7 +7,7 @@ function Jumbo() {
         <div>
             <Jumbotron id="jumbo-fix">
                 <div id="jumbo-box">
-                    <h1>Izzy Hall</h1>
+                    <h1 className="header-font">Izzy Hall</h1>
                 </div>
 
             </Jumbotron>

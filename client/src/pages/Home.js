@@ -5,7 +5,7 @@ function HomePage() {
     return (
         <div>
             <Button outline size="lg" block href="/coding" className="button-big">Coding</Button>
-            <Button outline size="lg" block href="/about" className="button-big">About</Button>
+            {/* <Button outline size="lg" block href="/about" className="button-big">About</Button> */}
         </div>
     )
 }

@@ -14,8 +14,14 @@
   text-align: center;
 }
 
+.header-font{
+  font-family: 'Patua One', cursive;
+}
+
 body {
   background-color:#621666;
+  font-family: 'Roboto', sans-serif;
+  color: #fd5757;
 }
 
 .navbar-custom {
@@ -63,9 +69,20 @@ border-color:#fd5757;
   font-size: 20px;
 }
 
+.card-button {
+  margin-right: 15px;
+  background-color: #db0273;
+  color: #ffffff;
+  outline-color: #db0273;
+}
 
+.contact-links {
+  color: #db0273
+}
 
-
+.contact-links:hover {
+  color: #fd5757
+}
 
 
 /* .App {

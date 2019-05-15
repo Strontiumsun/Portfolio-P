@@ -4,16 +4,17 @@ import {
     CardTitle, CardSubtitle, Button
 } from "reactstrap";
 
-function ProjectC() {
+function ProjectC(props) {
     return (
         <div>
             <Card id="card-sizer">
-                <CardImg src="https://66.media.tumblr.com/fbb6a079054e4d8f138ba4b0b4f39dab/tumblr_prf4mjtKTi1t2t6aqo1_500.png"></CardImg>
+                <CardImg src={props.img}></CardImg>
                 <CardBody>
-                    <CardTitle id="title-sizer">Card title</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button>Button</Button>
+                    <CardTitle id="title-sizer" className="header-font">{props.name}</CardTitle>
+                    <CardSubtitle>{props.category}</CardSubtitle>
+                    <CardText>{props.content}</CardText>
+                    <Button className="card-button" href={props.deployment}>Deployment</Button>
+                    <Button className="card-button" href={props.repo}>Repo</Button>
                 </CardBody>
             </Card>
         </div>
