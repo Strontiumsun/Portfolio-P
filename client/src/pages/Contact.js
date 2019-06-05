@@ -9,17 +9,12 @@ function Contact() {
                 <br></br>
                 <Row>
                     <Col>
-                        <h2>In Person</h2>
-                        <h4>My Address:</h4>
-                        <p>Izzy Hall
-                            <br></br>
-                            665 Melody Lane
-                            <br></br>
-                            Highland Park, IL 60035
-                        </p>
+                        <h2>Professional</h2>
+                        <h4><a className="contact-links" href="https://github.com/Strontiumsun">GitHub</a></h4>
+                        <h4><a className="contact-links" href="https://www.linkedin.com/in/izzy-hall-3484ba134/">LinkedIn</a></h4>
                     </Col>
                     <Col>
-                        <h2>On The Web</h2>
+                        <h2>Social Media</h2>
                         <h4><a className="contact-links" href="https://twitter.com/Strontiumsun">Twitter</a></h4>
                         <h4><a className="contact-links" href="https://strontiumsun.tumblr.com/">Tumblr</a></h4>
                     </Col>

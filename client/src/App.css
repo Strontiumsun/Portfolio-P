@@ -60,6 +60,14 @@ background-color:#fd5757;
 border-color:#fd5757;
 }
 
+.btn-secondary:hover{
+  background-color: #fd5757;
+  border-color:  #fd5757;
+}
+
+.btn-secondary{
+  border-color:#db0273;
+}
 #card-sizer {
   width: 500px;
   margin: 40px;
@@ -67,6 +75,10 @@ border-color:#fd5757;
 
 #title-sizer {
   font-size: 20px;
+}
+
+.subtitle-font {
+  font-size: 14px;
 }
 
 .card-button {
@@ -84,6 +96,9 @@ border-color:#fd5757;
   color: #fd5757
 }
 
+.logo-sizer {
+  width: 25%;
+}
 
 /* .App {
   text-align: center;
