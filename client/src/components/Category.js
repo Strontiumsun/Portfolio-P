@@ -1,10 +1,11 @@
 import React from "react";
+import { Button } from 'reactstrap';
 
 function Category(props) {
-    console.log(props.categories)
     return (
         <div className="category-box">
-            <h1>This box is {props.categories.name}</h1>
+            <Button outline size="lg" block className="button-big" href={props.path}>{props.name}</Button>
+            <div className="category-text">{props.description}</div>
         </div>
 
     )

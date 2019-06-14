@@ -7,6 +7,8 @@ import Contact from "./pages/Contact";
 import Coding from "./pages/Coding";
 import Navbar from "./components/Navbar";
 import Design from "./pages/Design";
+import Graphics from "./pages/Graphics";
+import Presentations from "./pages/Presentations";
 import Jumbotron from "./components/Jumbotron";
 import "./App.css"
 
@@ -25,6 +27,8 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/coding" component={Coding} />
         <Route exact path="/design" component={Design} />
+        <Route exact path="/graphics" component={Graphics} />
+        <Route exact path="/presentations" component={Presentations} />
       </div>
     </Router>
   );
