@@ -110,8 +110,14 @@ border-color:#fd5757;
   font-size: 20px;
 }
 
+.slide-sizer {
+  width: 960px; 
+}
 
-
+.carousel-sizer {
+  width: 960px;
+  margin: auto;
+}
 /* .App {
   text-align: center;
 }
