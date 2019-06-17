@@ -1,19 +1,39 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel"
-import Image from "../files/carema-1.png"
 
-function Slider() {
+
+function Slider(props) {
     return (
         <Carousel className="carousel-sizer">
             <Carousel.Item>
                 <img
                     className="d-block slide-sizer"
-                    src={Image}
-                    alt="First slide"
+                    src={props.image1}
+                    alt="slides"
                 />
-                <Carousel.Caption>
-                    <h3>Carema Consulting</h3>
-                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block slide-sizer"
+                    src={props.image2}
+                    alt="slides"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block slide-sizer"
+                    src={props.image3}
+                    alt="slides"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block slide-sizer"
+                    src={props.image4}
+                    alt="slides"
+                />
             </Carousel.Item>
         </Carousel>
     )
