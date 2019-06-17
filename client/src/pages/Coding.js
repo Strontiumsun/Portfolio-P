@@ -10,15 +10,14 @@ function Coding() {
         <div>
             <Container>
                 <Row>
-                    <Col lg="6" ><ProjectC
-                        img={BYOB}
-                        name="Chi BYOB"
+                    <Col lg="6"><ProjectC
+                        img={Wander}
+                        name="Wanderlust"
                         category="NU Full-Stack Boot Camp"
-                        content="App that searches for nearby BYOB restaurants based on user-inputted address and mile radius"
-                        tech="Bootstrap, Firebase, JQuery, Anime.js"
-                        deployment="https://strontiumsun.github.io/Chi-byob/"
-                        repo="https://github.com/Strontiumsun/Chi-byob"
-                    />
+                        content="App that allows users to read and write reviews of study abroad trips, featuring an interactive map"
+                        tech="React, MongoDB, Mongoose, Passport.js, Semantic UI React, bycryptjs, AM Charts"
+                        deployment="https://satisfying-wanderlust.herokuapp.com/"
+                        repo="https://github.com/Strontiumsun/wanderlust" />
                     </Col>
                     <Col lg="6">
                         <ProjectC
@@ -33,14 +32,15 @@ function Coding() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg="6"><ProjectC
-                        img={Wander}
-                        name="Wanderlust"
+                    <Col lg="6" ><ProjectC
+                        img={BYOB}
+                        name="Chi BYOB"
                         category="NU Full-Stack Boot Camp"
-                        content="App that allows users to read and write reviews of study abroad trips, featuring an interactive map"
-                        tech="React, MongoDB, Mongoose, Passport.js, Semantic UI React, bycryptjs, AM Charts"
-                        deployment="https://satisfying-wanderlust.herokuapp.com/"
-                        repo="https://github.com/Strontiumsun/wanderlust" />
+                        content="App that searches for nearby BYOB restaurants based on user-inputted address and mile radius"
+                        tech="Bootstrap, Firebase, JQuery, Anime.js"
+                        deployment="https://strontiumsun.github.io/Chi-byob/"
+                        repo="https://github.com/Strontiumsun/Chi-byob"
+                    />
                     </Col>
                 </Row>
             </Container>

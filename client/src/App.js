@@ -8,6 +8,8 @@ import Coding from "./pages/Coding";
 import Navbar from "./components/Navbar";
 import Design from "./pages/Design";
 import Graphics from "./pages/Graphics";
+import UI from "./pages/UI";
+import Comics from './pages/Comics';
 import Presentations from "./pages/Presentations";
 import Jumbotron from "./components/Jumbotron";
 import "./App.css"
@@ -29,6 +31,8 @@ function App() {
         <Route exact path="/design" component={Design} />
         <Route exact path="/graphics" component={Graphics} />
         <Route exact path="/presentations" component={Presentations} />
+        <Route exact path="/ui" component={UI}></Route>
+        <Route exact path="/comics" component={Comics} />
       </div>
     </Router>
   );

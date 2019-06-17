@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from "reactstrap";
+import { Container, Button } from "reactstrap";
 import Carousel from "../components/Carousel";
 import CaremaImage1 from "../files/carema-1.png"
 import CaremaImage2 from "../files/carema-2.png"
@@ -17,6 +17,10 @@ import GradusImage1 from "../files/gradus-1.png"
 import GradusImage2 from "../files/gradus-2.png"
 import GradusImage3 from "../files/gradus-3.png"
 import GradusImage4 from "../files/gradus-4.png"
+import Audira1 from "../files/audira-1.png"
+import Audira2 from "../files/audira-2.png"
+import Audira3 from "../files/audira-3.png"
+import Audira4 from "../files/audira-4.png"
 
 function Presentations() {
     return (
@@ -27,8 +31,9 @@ function Presentations() {
                 image3={CaremaImage5}
                 image4={CaremaImage6}
             />
-            <div>
-                <p>Original Presentation</p>
+            <div className="pres-description">
+                <h2>Carema Consulting Strategy Presentation</h2>
+                <h4>Presentation Designed in Google Slides</h4>
             </div>
             <Carousel
                 image1={WanderImage1}
@@ -36,8 +41,9 @@ function Presentations() {
                 image3={WanderImage3}
                 image4={WanderImage4}
             />
-            <div>
-                <p>Original Presentation</p>
+            <div className="pres-description">
+                <h2>Wanderlust Demonstration</h2>
+                <h4>Presentation Designed in PowerPoint</h4>
             </div>
             <Carousel
                 image1={SpatifyImage1}
@@ -45,8 +51,9 @@ function Presentations() {
                 image3={SpatifyImage3}
                 image4={SpatifyImage4}
             />
-            <div>
-                <p>Original Presentation</p>
+            <div className="pres-description">
+                <h2>Spatify Demonstration</h2>
+                <h4>Presentation Designed in PowerPoint</h4>
             </div>
             <Carousel
                 image1={GradusImage1}
@@ -54,9 +61,21 @@ function Presentations() {
                 image3={GradusImage3}
                 image4={GradusImage4}
             />
-            <div>
-                <p>Original Presentation</p>
+            <div className="pres-description">
+                <h2>Gradus Demonstration</h2>
+                <h4>Template Designed in PowerPoint, Content Customized in Google Slides</h4>
             </div>
+            <Carousel
+                image1={Audira1}
+                image2={Audira2}
+                image3={Audira3}
+                image4={Audira4}
+            />
+            <div className="pres-description">
+                <h2>Audira Barilla Leadership Presentation</h2>
+                <h4>Presentation Redesigned in PowerPoint</h4>
+            </div>
+            <Button outline href="/design" className="back-button">Back</Button>
         </Container>
 
     )

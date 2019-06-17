@@ -14,10 +14,15 @@ function Design() {
                 </Category>
                 <Category
                     path="/presentations"
-                    name="PowerPoint Design"
+                    name="Presentation Design"
                     description="Custom PowerPoint and Google Slides layouts"
                 >
                 </Category>
+                <Category
+                    path="/ui"
+                    name="UI Design"
+                    description="Website layout and design"
+                ></Category>
             </Container>
         </div>
 

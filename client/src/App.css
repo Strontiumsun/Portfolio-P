@@ -118,6 +118,30 @@ border-color:#fd5757;
   width: 960px;
   margin: auto;
 }
+
+.pres-description{
+  text-align: center;
+  padding: 10px;
+}
+
+.back-button{
+  color: #db0273;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.screenie-sizer{
+  width: 850px;
+  margin-bottom: 10px;
+}
+
+.wanderlust-sizer{
+  width: 500px;
+}
+
+.site-design-container{
+  text-align: center;
+}
 /* .App {
   text-align: center;
 }
