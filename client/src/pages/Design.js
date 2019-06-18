@@ -6,12 +6,12 @@ function Design() {
     return (
         <div>
             <Container>
-                <Category
+                {/* <Category
                     path="/graphics"
                     name="Graphic Design and Illustration"
                     description="Graphics, illustrations and logos made with Adobe Photoshop and Illustrator"
                 >
-                </Category>
+                </Category> */}
                 <Category
                     path="/presentations"
                     name="Presentation Design"

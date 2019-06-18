@@ -88,6 +88,18 @@ border-color:#fd5757;
   outline-color: #db0273;
 }
 
+.inactive-button{
+  margin-right: 15px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border: none;
+}
+
+.inactive-button:hover{
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
 .contact-links {
   color: #db0273
 }

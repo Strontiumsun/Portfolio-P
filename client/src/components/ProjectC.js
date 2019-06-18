@@ -14,8 +14,9 @@ function ProjectC(props) {
                     <CardSubtitle className="subtitle-font">{props.category}</CardSubtitle>
                     <CardText>{props.content}</CardText>
                     <CardText>Technologies Used: {props.tech}</CardText>
-                    <Button className="card-button" href={props.deployment}>Deployment</Button>
                     <Button className="card-button" href={props.repo}>Repo</Button>
+                    <Button className={props.deployment ? "card-button" : "inactive-button"} href={props.deployment ? props.deployment : ""}>Deployment</Button>
+
                 </CardBody>
             </Card>
         </div>
